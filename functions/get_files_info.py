@@ -24,7 +24,7 @@ def get_files_info(working_directory, directory="."):
 
         for file in os.listdir(abs_r_directory):
             working_file = os.path.join(abs_r_directory, file)
-            result_string+=f"- {file}: file_size={os.path.getsize(working_file)} bytes, is_dir={os.path.isdir(working_file)}\n"
+            result_string += f"- {file}: file_size={os.path.getsize(working_file)} bytes, is_dir={os.path.isdir(working_file)}\n"
         
         return(result_string)    
 
