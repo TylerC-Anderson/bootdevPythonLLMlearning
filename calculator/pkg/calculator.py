@@ -1,5 +1,10 @@
 # calculator.py
 
+"""
+This project is a test project for the LLM to work on. It was included from the 
+learning platform to test with.
+"""
+
 class Calculator:
     def __init__(self):
         self.operators = {

@@ -1,5 +1,10 @@
 # render.py
 
+"""
+This project is a test project for the LLM to work on. It was included from the 
+learning platform to test with.
+"""
+
 def render(expression, result):
     if isinstance(result, float) and result.is_integer():
         result_str = str(int(result))
