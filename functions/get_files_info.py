@@ -10,9 +10,9 @@ def get_files_info(working_directory, directory="."):
         abs_r_directory = os.path.abspath(requested_directory)
 
         abs_w_directory = os.path.abspath(working_directory)
-        directory_check = os.path.isdir(abs_r_directory)
+        is_directory = os.path.isdir(abs_r_directory)
 
-        if (directory_check == False):
+        if (not is_directory):
             error = f'Error: "{directory}" is not a directory'
             return error
         
